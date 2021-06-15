@@ -1,23 +1,16 @@
-import logo from './logo.svg';
+import MoviesBox from "./containers/MoviesBox"
 import './App.css';
+import poster from "./images/poster.png"
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* <div  styles={{ backgroundImage:`url(${poster})` }}> </div> */}
+      {/* <div style={{backgroundImage: `https://www.istockphoto.com/vector/marquee-and-curtain-background-gm1208666888-349453916`}}>
+      </div> */}
+      <MoviesBox/>
+    
+ 
     </div>
   );
 }
